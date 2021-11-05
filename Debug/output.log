@@ -1,0 +1,78 @@
+Initializing DFT_ATOM routine made by Gabriel Libanio on 14/ 7/2016 at 11:17.53                     
+Reading the input
+  
+ Input information
+Calculation DFT ATOM for H-STO-6G    
+     Atomic Number (Z) =    1
+                 Charge =   0
+    Number of Electrons =   1
+        Number of Basis =   6
+ The basis S-type Gaussian exponents are: 
+   35.5232212200000     
+   6.51314372500000     
+   1.82214290400000     
+  0.625955266000000     
+  0.243076747000000     
+  0.100112428000000     
+  
+Building the overlap matrix...                                                                      
+Done.                                                                                               
+Building nuclear potential matrix...                                                                
+Done.                                                                                               
+Building kinetic energy matrix...                                                                   
+Done.                                                                                               
+Building HCORE...
+Done.
+Diagonalizing the overlap matrix
+Done.
+Building the initial guess to Fock and density matrices...
+Initial guess done.
+
+Starting the SCF cycle...
+
+SCF cycle     1                                                                                     
+  EKINETIC =   0.50052236                                                                           
+  ENUCLEAR =  -1.00038203                                                                           
+  ECOULOMB =   0.31287653                                                                           
+  EXCHANGE =  -0.26820257                                                                           
+    ETOTAL =  -0.45518569                                                                           
+
+SCF cycle     2                                                                                     
+  EKINETIC =   0.59031014                                                                           
+  ENUCLEAR =  -1.08633161                                                                           
+  ECOULOMB =   0.34113080                                                                           
+  EXCHANGE =  -0.29228319                                                                           
+    ETOTAL =  -0.44717386                                                                           
+
+SCF cycle     3                                                                                     
+  EKINETIC =   0.59305166                                                                           
+  ENUCLEAR =  -1.08885078                                                                           
+  ECOULOMB =   0.34187647                                                                           
+  EXCHANGE =  -0.29293121                                                                           
+    ETOTAL =  -0.44685386                                                                           
+
+SCF cycle     4                                                                                     
+  EKINETIC =   0.59314503                                                                           
+  ENUCLEAR =  -1.08893686                                                                           
+  ECOULOMB =   0.34189446                                                                           
+  EXCHANGE =  -0.29294807                                                                           
+    ETOTAL =  -0.44684544                                                                           
+
+SCF cycle     5                                                                                     
+  EKINETIC =   0.59315039                                                                           
+  ENUCLEAR =  -1.08894181                                                                           
+  ECOULOMB =   0.34189514                                                                           
+  EXCHANGE =  -0.29294879                                                                           
+    ETOTAL =  -0.44684508                                                                           
+
+SCF cycle     6                                                                                     
+  EKINETIC =   0.59315079                                                                           
+  ENUCLEAR =  -1.08894219                                                                           
+  ECOULOMB =   0.34189518                                                                           
+  EXCHANGE =  -0.29294884                                                                           
+    ETOTAL =  -0.44684506                                                                           
+
+The SCF has converged!
+
+The calculation ended smoothly bro!!!
+                                                Ended at 14/ 7/2016 at 11:17.58                     

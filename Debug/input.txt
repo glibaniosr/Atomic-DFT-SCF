@@ -1,0 +1,87 @@
+DFT ATOM for H-STO-6G           !Title
+1 0				         !Zatom and charge
+100 10.E-8               !SCF maxsteps and convergence criteria	
+0.05 10.E-6              !Numeric integrals step size and precision
+6                        !Number of Basis > !Exponents
+35.52322122   
+6.513143725  
+1.822142904  
+0.625955266  
+0.243076747  
+0.100112428
+
+
+
+
+
+! H STO-3G
+3.42525091       
+0.62391373       
+0.16885540  
+
+! H STO-6G
+35.52322122   
+6.513143725  
+1.822142904  
+0.625955266  
+0.243076747  
+0.100112428
+
+! He STO-6G
+65.98456824   
+12.09819836   
+ 3.384639924  
+ 1.162715163  
+ 0.451516322  
+ 0.185959356
+ 
+! HE-STO-3G
+6.36242139    
+1.15892300    
+0.31364979
+ 
+! Be STO-6G 
+ 312.87049370  
+ 57.364462530 
+ 16.048509400 
+  5.5130961190
+  2.1408965530
+  0.8817394283
+ 13.633247440    
+  2.6983754640   
+  0.8386530829   
+  0.3226600698   
+  0.1401314882   
+  0.0642325139
+  
+ H STO-3G Density Matrix "Exact (GAMESS)"
+        !PDENS(1,1) =0.008868
+        !PDENS(1,2) =0.030989
+        !PDENS(1,3) =0.064802
+        !PDENS(2,3) =0.226451
+        !PDENS(2,2) =0.108289
+        !PDENS(3,3) =0.473546
+        !do i=1,3
+        !    do j=1,3
+        !        PDENS(j,i)=PDENS(i,j)
+        !    enddo
+        !enddo
+        !!END TEST
+  
+  
+  
+  He Density matrix
+  
+          !TEST
+        PDENS(1,1) = 0.057734
+        PDENS(1,2) = 0.148330
+        PDENS(1,3) = 0.183149
+        PDENS(2,3) = 0.470542
+        PDENS(2,2) = 0.381086
+        PDENS(3,3) = 0.580996
+        do i=1,3
+            do j=1,3
+                PDENS(j,i)=PDENS(i,j)
+            enddo
+        enddo
+        !!END TEST

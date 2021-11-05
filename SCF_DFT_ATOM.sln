@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "SCF_DFT", "SCF_DFT\SCF_DFT.vfproj", "{9D67DB49-3724-4F9E-8D0B-23EC2283662B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_1.0|Win32 = Release_1.0|Win32
+		Release_Final_Slater|Win32 = Release_Final_Slater|Win32
+		Release_Final|Win32 = Release_Final|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Debug|Win32.Build.0 = Debug|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release_1.0|Win32.ActiveCfg = Release_1.0|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release_1.0|Win32.Build.0 = Release_1.0|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release_Final_Slater|Win32.ActiveCfg = Release_Final_Slater|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release_Final_Slater|Win32.Build.0 = Release_Final_Slater|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release_Final|Win32.ActiveCfg = Release_Final|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release_Final|Win32.Build.0 = Release_Final|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release_Final|Win32.Deploy.0 = Release_Final|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release|Win32.ActiveCfg = Release|Win32
+		{9D67DB49-3724-4F9E-8D0B-23EC2283662B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
